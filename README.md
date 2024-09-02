@@ -9,7 +9,7 @@
 ## Alunos integrantes da equipe
 
 * [Vinicius Castro Filaretti](https://github.com/ViniciusCasF)
-* [Nome completo do aluno 2 (com link para Github)](https://github.com/aluno2)
+* [Vitor Augusto da Fonseca Lima](https://github.com/Vitorlima841)
 * [Nome completo do aluno 3 (com link para Github)](https://github.com/aluno3)
 * [Nome completo do aluno 4 (com link para Github)](https://github.com/aluno4)
 * [Nome completo do aluno 5 (com link para Github)](https://github.com/aluno5)
