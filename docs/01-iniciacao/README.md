@@ -41,8 +41,9 @@
 
 ## Problema
 
-A perda de tempo no trânsito está se tornando cada vez mais frequente, e um dos principais fatores para essa situação são os semáforos, que podem levar mais de 2 minutos para abrir novamente. Considerando que o tempo médio em que um semáforo permanece aberto é de apenas 30 segundos, muitas vezes ainda há veículos em fila quando o sinal fecha, agravando o congestionamento.
+A perda de tempo no trânsito é cada vez mais frequente, e os semáforos são um dos principais causadores. Eles podem levar mais de 2 minutos para reabrir, enquanto o tempo médio de abertura é de apenas 30 segundos, resultando em filas que agravam o congestionamento.
 
+Esse cenário aponta para a necessidade de otimizar a sincronização dos semáforos para reduzir o tempo perdido no trânsito. 
 > Problem corresponde a uma lacuna a ser preenchida, uma necessidade a ser atendida, ou uma dificuldade a ser superada.
 > A definição precisa do problema ajuda a orientar as atividades do projeto, direcionando os esforços em sua solução.
 > Seu entendimento facilita a comunicação eficaz entre os membros da equipe e as partes interessadas, estabelecendo uma base comum para a colaboração.
@@ -51,7 +52,12 @@ A perda de tempo no trânsito está se tornando cada vez mais frequente, e um do
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O objetivo é desenvolver um protótipo funcional de um semáforo inteligente
+utilizando um ESP32, câmeras e algoritmos de detecção, capaz de:
+Monitorar e contabilizar o fluxo de veículos em tempo real.
+Identificar e priorizar a passagem de veículos de emergência. 
+Ajustar dinamicamente os tempos de sinalização com base nas condições do tráfego.
+
 
 > Aqui você deve descrever os objetivos do trabalho.
 > Apresente um Objetivo Geral, sintetizado em uma única frase.
@@ -63,7 +69,8 @@ A perda de tempo no trânsito está se tornando cada vez mais frequente, e um do
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Hoje em dia, o aumento do fluxo de veículos nas áreas urbanas causa congestionamentos frequentes e perda de tempo. Os semáforos tradicionais, com tempos fixos, não conseguem se adaptar em tempo real para melhorar o trânsito. Isso acaba tornando o tráfego ineficiente e afeta diretamente a vida das pessoas. Com isso, o nosso projeto busca tornar o trânsito mais ágil e reduzir o tempo de espera nos semáforos, facilitando o dia a dia de todos. 
+
 
 > Aqui você deve descrever os benefícios esperados pela construção do projeto.
 > As justificativas do projeto explicam as razões e a necessidade da iniciativa.
@@ -72,7 +79,11 @@ A perda de tempo no trânsito está se tornando cada vez mais frequente, e um do
 
 ## Critérios de Sucesso
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Redução do tempo de espera: dados demonstram uma melhoria no fluxo de veículos bem como o tempo de espera.
+Integração com sensores: os dispositivos respondem com precisão e como esperado.
+Segurança: pedestres e ciclistas sentido-se mais seguros.
+Entrega dentro do prazo: produto finalizado e entregue no tempo esperado.
+Partes interessadas: satisfação das partes interessadas com o resultado final.
 
 > Os critérios de sucesso indicam uma forma avaliar o êxito do trabalho e analisar se o projeto realmente alcançou os objetivos estabelecidos. 
 > Esses critérios geralmente abrangem diversas dimensões, incluindo a entrega dentro do prazo e orçamento estipulados, a satisfação do cliente, a qualidade do produto ou serviço final, e a eficiência na utilização de recursos. 
@@ -89,16 +100,11 @@ A perda de tempo no trânsito está se tornando cada vez mais frequente, e um do
 
 ## Identificação das Partes Interessadas
 
-| Nome            | Posição / Cargo | Papel Projeto | E-mail      | Telefone    |
-|-----------------|-----------------|---------------|-------------|-------------|
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
-|                 |                 |               |             |             |
+| Nome            | Posição / Cargo | Papel Projeto                              | E-mail                           | Telefone       |
+|-----------------|-----------------|--------------------------------------------|----------------------------------|----------------|
+| Vinicius Castro | Sócio           | Técnico de informática                     | vinicius_castro@TecnoVias.com.br | (31)92929-8716 |
+| Vitor Augusto   | Sócio           | Analista de dados e analista de requisitos | vitor_augusto@TecnoVias.com.br   | (31)93679-6781 |
+| Rammid Andrew   | Sócio           | Desenvolvedor                              | rammid_andrew@TecnoVias.com.br   | (31)92769-8386 |
 
 > Opções de identificação dos stakeholders:
 > - Nome: nome da parte interessada (inclui funcionários da empresa e do cliente)
@@ -112,15 +118,12 @@ A perda de tempo no trânsito está se tornando cada vez mais frequente, e um do
 ## Avaliação das Partes Interessadas
 
 | Nome            | Expectativa no Projeto | Influência    | Importância / Poder | Apoio       | Observações   |
-|-----------------|------------------------|---------------|---------------------|-------------|---------------|
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
-|                 |                        |               |                     |             |               |
+|------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------|--------|----------|---------------------------------|
+| Órgãos municipais de trânsito      | O semáforo inteligente otimize o fluxo de veículos, priorizando o transporte de emergência além de reduzir o congestionamentos e aumentando a segurança nas ruas.       | Média | Alta   | Positivo | São clientes                    | 
+| Empresas de transporte público     | O semáforo inteligente otimize o fluxo de veículos, priorizando o transporte de emergência além de reduzir o congestionamentos e aumentando a segurança nas ruas.       | Média | Alta   | Positivo | São clientes                    |
+| prestadoras de serviços municipais | Os concorrentes esperam que o projeto de semáforo inteligente não de certo, para que percam espaço para uma nova tecnologia.                                            | Média | Alta   | Negativo | São concorrentes                |
+| Empresas de tecnologia             | Esperam que o projeto de semáforo inteligente seja bem-sucedido, pois isso pode gerar novas oportunidades de negócios, aumentar a demanda por seus produtos e serviços. | Alta  | Alta   | Positivo | São fornecedores de tecnologias |
+| Pedestres, ciclistas e motoristas  | Os clientes esperam que o projeto de semáforo inteligente melhore a eficiência do tráfego, reduza congestionamentos e aumente a segurança das ruas.                     | Alta  | Neutro | Positivo | São os cllientes                |      
 
 > Opções de avaliação:
 > - Expectativa: descrição da expectativa da parte interessada no projeto.
