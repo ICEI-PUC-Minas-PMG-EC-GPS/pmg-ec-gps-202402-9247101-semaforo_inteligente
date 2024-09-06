@@ -41,7 +41,7 @@
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A perda de tempo no trânsito está se tornando cada vez mais frequente, e um dos principais fatores para essa situação são os semáforos, que podem levar mais de 2 minutos para abrir novamente. Considerando que o tempo médio em que um semáforo permanece aberto é de apenas 30 segundos, muitas vezes ainda há veículos em fila quando o sinal fecha, agravando o congestionamento.
 
 > Problem corresponde a uma lacuna a ser preenchida, uma necessidade a ser atendida, ou uma dificuldade a ser superada.
 > A definição precisa do problema ajuda a orientar as atividades do projeto, direcionando os esforços em sua solução.
