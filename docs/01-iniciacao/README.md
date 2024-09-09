@@ -170,13 +170,13 @@ Partes interessadas: satisfação das partes interessadas com o resultado final.
 
 | Item de Custo           | Descrição | Qtd. horas | Valor / hora | Valor total |
 |-------------------------|-----------|------------|--------------|-------------|
-| Recursos Humanos        |           |            |              |             |
-| Hardware                |           |            |              |             |
-| Serviços de Rede        |           |            |              |             |
-| Hospedagem e Nuvem      |           |            |              |             |
+| Recursos Humanos        |           |      2100      |       50       |       105000      |
+| Hardware                |    leitor RFID de longa distância.(R$600 Unidade) esp32cam (50 Unidade) tags RFID para veículos (10 Unidade) |            |              |      670       |
+| Serviços de Rede        |    Protocolo de comunicação com o esp (MQTT)       |            |      1 dólar(por milhão de mensagens)      |            |
+| Hospedagem e Nuvem      |     Banco de dados (SQL)      |            |       0,5       |      400(Mensais)       |
 | Software de terceiros   |           |            |              |             |
-| Serviços e treinamento  |           |            |              |             |
-| **Total Geral**         |           |            |              |             |
+| Serviços e treinamento  |     Cursos para usar as tecnologias     |     40       |      5        |       200      |
+| **Total Geral**         |           |       2140     |       61       |      106270       |
 
 
 ## Estimativa de Prazo
@@ -193,8 +193,8 @@ Partes interessadas: satisfação das partes interessadas com o resultado final.
 > * Data de término
 
 * Prazo previsto (em horas): XX horas
-* Data de início: __ / __ / _____
-* Data de término: __ / __ / _____
+* Data de início: 01 / 09 / 2024
+* Data de término: 15 / 12 / 2024
 
 ## Escopo Preliminar e Premissas
 
