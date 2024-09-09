@@ -192,7 +192,7 @@ Partes interessadas: satisfação das partes interessadas com o resultado final.
 > * Data de início
 > * Data de término
 
-* Prazo previsto (em horas): XX horas
+* Prazo previsto (em horas): 2100 horas
 * Data de início: 01 / 09 / 2024
 * Data de término: 15 / 12 / 2024
 
