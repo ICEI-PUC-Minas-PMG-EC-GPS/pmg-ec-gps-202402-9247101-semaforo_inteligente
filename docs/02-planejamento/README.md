@@ -35,6 +35,8 @@
 > A definição do escopo inclui documentação detalhada dos requisitos, restrições e premissas do projeto. 
 > Ao longo do ciclo de vida do projeto, a gestão do escopo também inclui o controle de mudanças, garantindo que qualquer ajuste seja avaliado quanto ao seu impacto e aprovado de maneira adequada. 
 > Utilize como referência a documentação existente na [Fase de Iniciação](/docs/01-iniciacao).
+>https://docs.google.com/document/d/1bmO2Gx7lSPxm8Pnd7lYOTdb0inqJwGeQ8Ez3DcjcoKU/edit?usp=drivesdk
+> 
 
 # Estrutura Analítica do Projeto
 
