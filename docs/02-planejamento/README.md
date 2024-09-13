@@ -33,6 +33,8 @@
 
 # Estrutura Analítica do Projeto
 
+<img src="Estrutura Analítica do Projeto.png">
+
 ......  COLOQUE AQUI O SEU TEXTO ......
 
 > A Estrutura Analítica do Projeto (EAP) proporciona uma representação hierárquica atividades que compõem um projeto. 
