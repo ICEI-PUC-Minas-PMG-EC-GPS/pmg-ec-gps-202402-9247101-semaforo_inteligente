@@ -50,7 +50,7 @@
 
 
 
-![Clique aqui para abrir a matriz RACI]([https://docs.google.com/document/d/1XOoQn1Wa8aSLaKVV2mC4VlzGqWLHe68nrYPlzMVFfW0/edit?usp=sharing)
+[Clique aqui para abrir a matriz RACI]([https://docs.google.com/document/d/1XOoQn1Wa8aSLaKVV2mC4VlzGqWLHe68nrYPlzMVFfW0/edit?usp=sharing).
 
 ```diff
 + Tarefa 05:
