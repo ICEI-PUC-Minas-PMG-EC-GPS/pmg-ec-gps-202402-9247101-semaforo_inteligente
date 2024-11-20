@@ -208,7 +208,7 @@
 
 ## Plano de Aquisição
 
-- [Especificação Produto Aquisição]([artefatos/aquisicao_produtos.docx](https://docs.google.com/document/d/1b1sHeJE7h_JMcMZ65xa7zrJjqkIjedH3/edit?usp=sharing&ouid=102024744764402444369&rtpof=true&sd=true))
+- [Especificação Produto Aquisição](https://docs.google.com/document/d/1b1sHeJE7h_JMcMZ65xa7zrJjqkIjedH3/edit?usp=sharing&ouid=102024744764402444369&rtpof=true&sd=true)
 
 
 ```diff
