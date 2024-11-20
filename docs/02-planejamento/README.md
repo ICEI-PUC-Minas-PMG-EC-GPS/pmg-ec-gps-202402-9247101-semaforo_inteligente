@@ -236,17 +236,17 @@
 
 | Entregável                         | Público Alvo | Met. Comunicação | Frequência  | Responsável | 
 |------------------------------------|--------------|------------------|-------------|-------------|
-| Ata de reunião                     |              |                  |             |             |
-| Declaração de escopo               |              |                  |             |             |
-| WBS                                |              |                  |             |             |
-| Dicionário da WBS                  |              |                  |             |             |
-| Cronograma                         |              |                  |             |             |
-| Lista de Riscos                    |              |                  |             |             |
-| Plano de qualidade                 |              |                  |             |             |
-| Plano de projeto                   |              |                  |             |             |
-| Relatório de Progresso             |              |                  |             |             |
-| Relatório de Aderência ao Processo |              |                  |             |             |
-| Checklists de Inspeção             |              |                  |             |             |
+| Ata de reunião                     |Equipe do projeto|E-mail, Reunião presencial|Todo dia|Gerente de Projeto|
+| Declaração de escopo               |Equipe do projeto, Stakeholders|E-mail, Reunião presencial|No início do projeto|Gerente de Projeto|
+| WBS                                |Equipe do projeto|E-mail, Reunião virtual|Quando houver atualização|Líder de Planejamento|
+| Dicionário da WBS                  |Equipe do projeto|E-mail, Documento compartilhado|Quando houver atualização|Líder de Planejamento|
+| Cronograma                         |Equipe do projeto, Stakeholders|E-mail, Plataforma de gestão|Semanal|Gerente de Projetos|
+| Lista de Riscos                    |Equipe do projeto|E-mail, Reunião virtual|Quinzenal|Analista de Riscos|
+| Plano de qualidade                 |Equipe do projeto, Stakeholders|E-mail, Reunião presencial|Inicial e quando houver atualização|Gerente de Qualidade|
+| Plano de projeto                   |Equipe do projeto, Stakeholders|E-mail, Reunião presencial|No início do projeto|Gerente de Projetos|
+| Relatório de Progresso             |Equipe do projeto, Stakeholders|E-mail, Plataforma de gestão|Semanal|Gerente de Projetos|
+| Relatório de Aderência ao Processo |Equipe do projeto, Stakeholders|E-mail, Reunião virtual|Mensal|Líder de Processos|
+| Checklists de Inspeção             |Equipe do projeto|Documento compartilhado|Mensal|Coordenador de Qualidade|
 |                                    |              |                  |             |             |
 |                                    |              |                  |             |             |
 |                                    |              |                  |             |             |
