@@ -159,40 +159,34 @@
 
 ### Padrões e Normas Utilizadas
 
-| Nome       | Descrição   | 
-|------------|-------------|
-|            |             |
-|            |             |
-|            |             |
-|            |             |
-|            |             |
+| Nome                          | Descrição                                                |
+|------------------------------------|------------------------------------------------------------|
+| ISO 25010                          | Padrão para qualidade de software                          |
+| ABNT NBR 5410                      | Requisitos técnicos para instalações elétricas             |
+| IEEE 12207                         | Padrão para ciclo de vida de sistemas e software            |
 
 ### Ambiente das Atividades de Qualidade
 
-| Ambiente   | Descrição   | 
-|------------|-------------|
-|            |             |
-|            |             |
-|            |             |
-|            |             |
+- Laboratório de testes equipado com simuladores de trânsito e componentes de hardware para semáforos.
+- Ferramentas de desenvolvimento de software: IDE Visual Studio, JIRA para rastreamento de tarefas, Selenium para automação de testes.
+- Ambiente de homologação que simula condições reais de tráfego urbano.
 
 ### Equipe de Qualidade
 
-| Nome       | Responsabilidade | 
-|------------|------------------|
-|            |                  |
-|            |                  |
-|            |                  |
-|            |                  |
-|            |                  |
+| Nome            | Responsabilidades                                      |
+|---------------------|-----------------------------------------------------------|
+| Ana Martins         | Revisar requisitos e assegurar clareza e completude.      |
+| João Ferreira       | Realizar testes funcionais do protótipo do semáforo.      |
+| Pedro Alves         | Revisar código e garantir cobertura de testes.            |
+| Camila Andrade      | Verificar clareza e adequação do manual do usuário.       |
 
 ### Metodologias de Qualidade Utilizadas
 
-| Nome       | Descrição   | 
-|------------|-------------|
-|            |             |
-|            |             |
-|            |             |
+| Nome                         | Descrição                                                                |
+|----------------------------------|-------------------------------------------------------------------------------|
+| Teste de Integração              | Garantir que os módulos do software funcionem corretamente juntos.            |
+| Revisão por pares                | Verificação colaborativa para identificar erros no código ou documentos.      |
+| Inspeção formal                  | Processo estruturado para avaliar artefatos, identificando não conformidades. |
 
 ```diff
 + Tarefa 09:
