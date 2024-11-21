@@ -238,9 +238,6 @@
 | Relatório de Progresso             |Equipe do projeto, Stakeholders|E-mail, Plataforma de gestão|Semanal|Gerente de Projetos|
 | Relatório de Aderência ao Processo |Equipe do projeto, Stakeholders|E-mail, Reunião virtual|Mensal|Líder de Processos|
 | Checklists de Inspeção             |Equipe do projeto|Documento compartilhado|Mensal|Gerente de Qualidade|
-|                                    |              |                  |             |             |
-|                                    |              |                  |             |             |
-|                                    |              |                  |             |             |
 
 > Legenda:
 > - Público: a quem se destina a comunicação.
