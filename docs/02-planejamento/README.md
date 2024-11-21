@@ -150,14 +150,12 @@
 
 ### Artefatos a serem verificados
 
-| Artefato   | Tipo Verif. | Data        | Responsável | Métrica     | Data Correção | Ação Não Conform. | Resp. Avaliação | Resp. Correção |
-|------------|-------------|-------------|-------------|-------------|---------------|-------------------|-----------------|----------------|
-|            |             |             |             |             |               |                   |                 |                |
-|            |             |             |             |             |               |                   |                 |                |
-|            |             |             |             |             |               |                   |                 |                |
-|            |             |             |             |             |               |                   |                 |                |
-|            |             |             |             |             |               |                   |                 |                |
-|            |             |             |             |             |               |                   |                 |                |
+| Artefato                   | Tipo de Verificação      | Data     | Responsável         | Métrica Aplicada              | Data Limite p/ Correção | Ação p/ Não Conformidade             | Respons. Avaliação / Correção  |
+|--------------------------------|--------------------------------|---------------|--------------------------|-------------------------------------|----------------------------|------------------------------------------|------------------------------------|
+| Especificação dos Requisitos   | Revisão técnica               | 25/11/2024    | Ana Martins              | Percentual de requisitos claros (95%) | 28/11/2024                | Realizar reunião com stakeholders        | Carlos Silva / Ana Martins         |
+| Protótipo do Semáforo          | Teste funcional               | 30/11/2024    | João Ferreira            | Taxa de funcionamento correto (98%) | 05/12/2024                | Ajustar componentes de hardware          | Mariana Souza / João Ferreira       |
+| Código do Software             | Revisão de código e teste     | 10/12/2024    | Pedro Alves              | Cobertura de testes (mín. 90%)       | 15/12/2024                | Refatorar código e criar novos testes    | Laura Lima / Pedro Alves            |
+| Manual de Usuário              | Revisão editorial             | 20/12/2024    | Camila Andrade           | Percentual de clareza e completude (95%) | 22/12/2024                | Reescrever seções incompletas ou confusas | Diego Ramos / Camila Andrade        |
 
 ### Padrões e Normas Utilizadas
 
