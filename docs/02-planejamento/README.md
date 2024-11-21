@@ -246,7 +246,7 @@
 | Plano de projeto                   |Equipe do projeto, Stakeholders|E-mail, Reunião presencial|No início do projeto|Gerente de Projetos|
 | Relatório de Progresso             |Equipe do projeto, Stakeholders|E-mail, Plataforma de gestão|Semanal|Gerente de Projetos|
 | Relatório de Aderência ao Processo |Equipe do projeto, Stakeholders|E-mail, Reunião virtual|Mensal|Líder de Processos|
-| Checklists de Inspeção             |Equipe do projeto|Documento compartilhado|Mensal|Coordenador de Qualidade|
+| Checklists de Inspeção             |Equipe do projeto|Documento compartilhado|Mensal|Gerente de Qualidade|
 |                                    |              |                  |             |             |
 |                                    |              |                  |             |             |
 |                                    |              |                  |             |             |
@@ -259,26 +259,24 @@
 
 ### Plano de Gerência de Comunicação
 
-> Indique:
-> - Ferramentas utilizadas no projeto - adicionar link de acesso às ferramentas
-> - Papéis: responsáveis pelas correspondentes no projeto
-> - Princípios gerais: indica quais princípios serão adotados no plano de comunicação, como clareza, objetividade, impessoalidade, imparcialidade e cordialidade. Detalhar.
->
-> Plano de Gerência de Configuração: definir, em linhas gerais, como (ferramenta) serão controladas e distribuídas as versões e se haverá algum controle de responsabilidades.
-
 - Ferramentas utilizadas:
-- - [Ferramenta 01](https://pucminas.br)
-  - [Ferramenta 02](https://pucminas.br)
-  - [Ferramenta 03](https://pucminas.br)
+- - [Discord](https://discord.com/)
+  - [Gmail](gmail.com)
+  - [GitHub](github.com)
+  - [Drive](https://drive.google.com/)
+
 - Papéis:
-- - ...
-  - ...
-  - ...
+- - Gerente de Projeto
+  - Líder de Planejamento
+  - Analista de Riscos
+  - Gerente de Qualidade
+  - Líder de Processos
+    
 - Princípios gerais
-- - ...
-  - ...
-  - ...
-  - ...
+- - Clareza
+  - Objetividade
+  - Consistência
+  - Pontualidade
 
 ```diff
 + Tarefa 11:
