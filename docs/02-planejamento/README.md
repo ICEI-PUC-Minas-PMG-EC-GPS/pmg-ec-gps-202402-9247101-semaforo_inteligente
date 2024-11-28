@@ -270,55 +270,22 @@
 
 ## Plano de Riscos
 
-......  COLOQUE AQUI O SEU TEXTO ......
 
 
-> O plano de riscos busca antecipar, avaliar e mitigar os desafios potenciais que podem surgir ao longo do projeto. 
-> Este documento estratégico oferece uma visão global dos riscos, categorizando-os e delineando estratégias para lidar com cada uma das possíveis adversidades. 
-> Inicialmente, é realizada a identificação detalhada dos riscos, abrangendo desde ameaças imprevistas até oportunidades que podem ser exploradas. 
-> Uma vez catalogados, os riscos são avaliados quanto à sua probabilidade de ocorrência e impacto, permitindo a priorização e foco em áreas críticas.
->
-> O plano de riscos não apenas destaca os perigos em potencial, mas também estabelece respostas e estratégias de contingência. 
-> Isso inclui a definição de ações preventivas para mitigar riscos antes que se materializem, bem como estratégias de mitigação para minimizar seu impacto se ocorrerem. 
-> Além disso, a identificação de pontos de monitoramento contínuo ao longo do projeto permite uma resposta ágil às mudanças nas condições do ambiente.
->
-> Você pode utilizar como referência o seguinte documento:
-- [Plano de Gerenciamento de Riscos - Editável](artefatos/plano_riscos.xls)
+| Categoria do Risco | Descrição do Risco | Probabilidade | Impacto | Risco | **Medidas de prevenção (contramedidas) | Medidas de contingência (mitigação) |
+|---------------|-------------------------------------------------------------|-------|------|------|--------------------------------------------------------------|------------------------------------------------------------|
+| Cliente       | Alterações frequentes nos requisitos por parte do cliente   | Médio | Médio| Médio| Documentar os requisitos em contrato e validar com o cliente | Realizar reuniões de alinhamento para ajustar o escopo   |
+| Operação      | Mau funcionamento dos sensores de detecção no semáforo      | Baixo | Alto | Médio| Testar sensores exaustivamente antes da implantação         | Substituir sensores rapidamente por peças reservas        |
+| Infraestrutura| Instabilidade na rede elétrica do local                     | Baixo | Alto | Médio| Instalar sistemas de nobreak ou fontes redundantes          | Planejar um protocolo para interrupções emergenciais      |
+| Orçamento     | Estouro de orçamento devido a mudanças no escopo            | Baixo | Alto | Médio| Realizar planejamento financeiro detalhado e monitorar custos | Reduzir funcionalidades opcionais do projeto             |
+| Cronograma    | Atraso na entrega dos controladores de tráfego              | Médio | Alto | Alto | Firmar contratos com cláusulas de penalidade por atrasos     | Ajustar a ordem de atividades para mitigar impactos       |
+| Mercado       | Escassez ou aumento de custo dos microcontroladores         | Alto  | Médio| Alto | Planejar compras antecipadas e buscar fornecedores alternativos | Usar modelos alternativos compatíveis                    |
+| Logística     | Atraso no transporte dos componentes até o local            | Médio | Alto | Alto | Negociar prazos e condições claras com fornecedores          | Replanejar cronograma para minimizar impactos             |
+| Implementação | Configuração incorreta do sistema de temporização           | Baixa | Alto | Médio| Realizar simulações e auditorias técnicas antes da implantação | Corrigir remotamente ou com equipes de manutenção         |
+| Montagem      | Instalação incorreta de módulos eletrônicos                 | Baixa | Alto | Médio| Treinar técnicos e realizar checklist de montagem           | Disponibilizar equipe para ajustes imediatos no local     |
+| Manutenção    | Falha na atualização remota do software                     | Baixa | Alto | Médio| Testar atualizações em ambientes controlados antes de aplicá-las | Reverter para uma versão anterior ou atualizar manualmente |
 
-| Categoria do Risco  | Descrição do Risco | Impacto       | Risco         | Medidas de Prevenção (Contramedidas) | Medidas de Contingência (Mitigação) | 
-|---------------------|--------------------|---------------|---------------|--------------------------------------|-------------------------------------|
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
-|                     |                    |               |               |                                      |                                     |
 
-> Indique:
-> Categoria do Risco: *ex.: Cliente, Cronograma, Orçamento, Aquisição de produtos, etc*
-> Descrição do Risco: *ex.: Cliente não aparenta ter muito interesse no projeto*
-> Impacto: *Baixo / Médio / Alto*
-> Risco: *Baixo / Médio / Alto*
-> Medidas de Prevenção: *Medidas que devem ser adotadas para evitar que o risco se concretize*
-> Medidas de Contingência: *Medidas que devem ser adotadas caso o risco se concretize*
->
-> *Obs.: Para determinar o risco considere a seguinte combinação entre Probabilidade e Impacto:
-
-| Probabilidade | Impacto       | Risco         |
-|---------------|---------------|---------------|
-| Baixo         | Baixo         | Baixo         |
-| Médio         | Médio         | Médio         |
-| Alto          | Alto          | Alto          |
-| Baixo         | Médio         | Médio         |
-| Médio         | Baixo         | Médio         |
-| Baixo         | Alto          | Médio         |
-| Alto          | Baixo         | Médio         |
-| Médio         | Alto          | Alto          |
-| Alto          | Médio         | Alto          |
 
 
 ```diff
