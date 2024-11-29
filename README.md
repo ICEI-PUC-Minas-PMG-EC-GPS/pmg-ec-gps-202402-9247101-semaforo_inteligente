@@ -46,5 +46,4 @@ Fases do Gerenciamento do Projeto:
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
-> Inclua aqui informações extra sobre o projeto.
-> Caso não existam informações extras, remova a seção.
+[Documento do Encerramento do Projeto](https://github.com/ICEI-PUC-Minas-PMG-EC-GPS/pmg-ec-gps-202402-9247101-semaforo_inteligente/blob/master/encerramento%20projeto.docx.pdf)
